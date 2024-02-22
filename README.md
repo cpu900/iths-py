@@ -1,12 +1,12 @@
 
 
-# PEN-TEST Python ITHS VT-24
+# 🔥 PEN-TEST Python ITHS VT-24
 
 En samling Python script som kan användas i Pen-Test miljöer.
 
 ## Installation i Docker (rekommendera)
 
-Installera docker först från https://www.docker.com/products/docker-desktop/
+Installera docker först från [Docker Desktop]([https://skerritt.blog/a11y/](https://www.docker.com/products/docker-desktop/))
 
 ```bash
 # Ladda ner docker bygg fil
@@ -51,7 +51,7 @@ python3 ./start.py
 ```
 
 
-## Användning
+## ✍ Användning
 ```bash
 # [1]
 Söker upp geografiks position på en IP-adress samt anger AS den tillhör.
@@ -65,10 +65,10 @@ prova med de35e405bfce64ed4f5410757bf17ef4
 ```
 
 
-## Bidra
+## 🙏 Bidra
 
 För ändringar, öppna ett ärende för att diskutera vad du skulle vilja förändra.
 
-## Licens
+## 💡 Licens
 
 [MIT](https://choosealicense.com/licenses/mit/)

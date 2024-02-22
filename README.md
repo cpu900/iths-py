@@ -4,7 +4,7 @@
 
 En samling Python script som kan användas i Pen-Test miljöer.
 
-## Installation i Docker
+## Installation i Docker (rekommendera)
 
 Installera docker först från https://www.docker.com/products/docker-desktop/
 

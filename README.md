@@ -50,6 +50,21 @@ pip install -r requirements.txt
 python3 ./start.py
 ```
 
+
+## Användning
+```bash
+# [1]
+Söker upp geografiks position på en IP-adress samt anger AS den tillhör.
+Använder IPAPI.co (tillåter 1000 förfrågningar / dag utan konto)
+```
+
+```bash
+# [2]
+Försöker knäcka hash MD5/SHA
+prova med de35e405bfce64ed4f5410757bf17ef4
+```
+
+
 ## Bidra
 
 För ändringar, öppna ett ärende för att diskutera vad du skulle vilja förändra.

@@ -1,0 +1,36 @@
+# Senaste Kali Linux image
+FROM kalilinux/kali-rolling
+
+# Updatera och installera paket
+RUN apt update --fix-missing
+
+# installera zsh
+RUN apt install -y zsh zsh-autosuggestions zsh-syntax-highlighting bash-completion
+
+# bra tools att ha
+RUN apt install -y git wget 7zip file strace vim tree bat btop 
+
+# python3.11
+RUN apt install -y python3 python3-pip
+RUN pip3 install search-that-hash pwntools ipapi
+
+# Clone egen git katlog till /pentest
+WORKDIR /pentest
+RUN git clone https://github.com/cpu900/iths-py
+
+# Ställ in ENV
+ENV LC_ALL=C.UTF-8
+ENV RUNNING_IN_DOCKER true
+
+# ställ in shell zsh
+CMD zsh
+
+# -
+# Bygg image 
+# docker build -t pentest:1.0 -f dockerfile.txt .
+# -
+# Skapa container
+# docker run --name pentest --hostname kali -it pentest:1.0 
+# -
+# Lägg in alias
+# alias py="python3" cl="clear" bat="batcat" top="btop" unzip="7z"

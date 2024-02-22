@@ -6,8 +6,7 @@ En samling Python script som kan användas i Pen-Test miljöer.
 
 ## Installation i Docker (rekommendera)
 
-Installera docker först från https://www.docker.com/products/docker-desktop/
-* [Docker]([https://remnux.org/](https://www.docker.com/products/docker-desktop/)).
+* Installera docker först från https://www.docker.com/products/docker-desktop/
 
 ```bash
 # Ladda ner docker bygg fil
@@ -55,7 +54,7 @@ python3 ./start.py
 ## ✍ Användning
 ```bash
 # [1]
-Söker upp geografiks position på en IP-adress samt anger AS den tillhör.
+Söker upp geografisk position på en IP-adress samt anger AS den tillhör.
 Använder IPAPI.co (tillåter 1000 förfrågningar / dag utan konto)
 ```
 

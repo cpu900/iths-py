@@ -17,16 +17,21 @@ pip install foobar
 ## Användning
 
 ```python
-import foobar
 
-# returns 'words'
-foobar.pluralize('word')
+# skapa katalog
+mkdir pentest
 
-# returns 'geese'
-foobar.pluralize('goose')
+#byt katalog
+cd pentest
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+# kopiera git
+git clone https://github.com/cpu900/iths-py/
+
+# installera paket
+pip install -r requirements.txt
+
+# starta script
+python3 ./start.py
 ```
 
 ## Bidra

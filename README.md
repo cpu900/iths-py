@@ -4,7 +4,7 @@
 
 En samling Python script som kan användas i Pen-Test miljöer.
 
-## Installation i Docker (rekommendera)
+# Installation i Docker (rekommendera)
 
 * Installera docker först från https://www.docker.com/products/docker-desktop/
 
@@ -23,30 +23,30 @@ docker build -t pentest:1.0 -f dockerfile.txt .
 docker run --name pentest --hostname kali -it pentest:1.0 
 ```
 
-## Installation i Bash
+# Installation i Bash
 
+skapa katalog
 ```python
-# skapa katalog
 mkdir pentest
 ```
 
+byt katalog
 ```python
-#byt katalog
 cd pentest
 ```
 
+kopiera git
 ```python
-# kopiera git
 git clone https://github.com/cpu900/iths-py/
 ```
 
+installera paket
 ```python
-# installera paket
 pip install -r requirements.txt
 ```
 
+starta scriptet
 ```python
-# starta script
 python3 ./start.py
 ```
 

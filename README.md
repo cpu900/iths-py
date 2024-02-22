@@ -6,12 +6,16 @@
 
 En samling Python script som kan användas i Pen-Test miljöer.
 
-## Installation
+## Installation DOCKER
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Installera docker först från https://www.docker.com/products/docker-desktop/
 
 ```bash
-pip install foobar
+# Bygg image 
+docker build -t pentest:1.0 -f dockerfile.txt .
+
+# Skapa container
+docker run --name pentest --hostname kali -it pentest:1.0 
 ```
 
 ## Användning

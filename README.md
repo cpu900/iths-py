@@ -1,8 +1,6 @@
 
 
-
-
-# Pen-TEST Python ITHS VT-24
+# PEN-TEST Python ITHS VT-24
 
 En samling Python script som kan användas i Pen-Test miljöer.
 

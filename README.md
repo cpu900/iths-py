@@ -6,7 +6,8 @@ En samling Python script som kan användas i Pen-Test miljöer.
 
 ## Installation i Docker (rekommendera)
 
-Installera docker först från [Docker Desktop]([https://skerritt.blog/a11y/](https://www.docker.com/products/docker-desktop/))
+Installera docker först från https://www.docker.com/products/docker-desktop/
+* [Docker]([https://remnux.org/](https://www.docker.com/products/docker-desktop/)).
 
 ```bash
 # Ladda ner docker bygg fil

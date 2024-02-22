@@ -60,7 +60,7 @@ Använder IPAPI.co (tillåter 1000 förfrågningar / dag utan konto)
 
 ```bash
 # [2]
-Försöker knäcka hash MD5/SHA
+Försöker knäcka hash MD5/SHA, använder https://github.com/HashPals/Search-That-Hash
 prova med de35e405bfce64ed4f5410757bf17ef4
 ```
 

@@ -8,17 +8,17 @@ En samling Python script som kan användas i Pen-Test miljöer.
 
 * Installera docker först från https://www.docker.com/products/docker-desktop/
 
-# Ladda ner docker bygg fil
+### Ladda ner docker bygg fil
 ```bash
 https://github.com/cpu900/iths-py/blob/main/dockerfile.txt
 ```
 
-# Bygg image 
+### Bygg image 
 ```bash
 docker build -t pentest:1.0 -f dockerfile.txt .
 ```
 
-# Skapa container
+### Skapa container
 ```bash
 docker run --name pentest --hostname kali -it pentest:1.0 
 ```

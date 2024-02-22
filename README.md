@@ -6,7 +6,7 @@
 
 En samling Python script som kan användas i Pen-Test miljöer.
 
-## Installation DOCKER
+## Installation i Docker
 
 Installera docker först från https://www.docker.com/products/docker-desktop/
 
@@ -21,7 +21,7 @@ docker build -t pentest:1.0 -f dockerfile.txt .
 docker run --name pentest --hostname kali -it pentest:1.0 
 ```
 
-## Användning
+## Installation i Bash
 
 ```python
 

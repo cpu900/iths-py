@@ -26,19 +26,26 @@ docker run --name pentest --hostname kali -it pentest:1.0
 ## Installation i Bash
 
 ```python
-
 # skapa katalog
 mkdir pentest
+```
 
+```python
 #byt katalog
 cd pentest
+```
 
+```python
 # kopiera git
 git clone https://github.com/cpu900/iths-py/
+```
 
+```python
 # installera paket
 pip install -r requirements.txt
+```
 
+```python
 # starta script
 python3 ./start.py
 ```

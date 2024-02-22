@@ -11,10 +11,14 @@ Installera docker först från https://www.docker.com/products/docker-desktop/
 ```bash
 # Ladda ner docker bygg fil
 https://github.com/cpu900/iths-py/blob/main/dockerfile.txt
+```
 
+```bash
 # Bygg image 
 docker build -t pentest:1.0 -f dockerfile.txt .
+```
 
+```bash
 # Skapa container
 docker run --name pentest --hostname kali -it pentest:1.0 
 ```
